@@ -1,0 +1,15 @@
+node_modules
+.next
+.vercel
+.env*
+!.env.example
+.test-out
+tsconfig.tsbuildinfo
+
+# datos que nunca se suben
+*.pem
+*.key
+secrets/
+scripts/facturas-prueba/reales/
+respaldo*.json
+respaldo*.xlsx
